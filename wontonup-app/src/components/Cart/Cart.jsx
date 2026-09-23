@@ -6,6 +6,7 @@ import CartItem from '../CartItem/CartItem'
 function Cart() {
   const [isOpen, setIsOpen] = useState(false)
 
+  // useSelector to read the state of items
   const items = useSelector((state) => state.cart.items)
 
   useEffect(() => {

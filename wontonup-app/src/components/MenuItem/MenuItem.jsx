@@ -2,6 +2,7 @@ import { useDispatch } from 'react-redux';
 import { addToCart } from '../../reducers/cartReducer';
 
 function MenuItem({ item }) {
+    // The Add dispatch action is sent here
     const dispatch = useDispatch();
 
     return (

@@ -1,5 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit';
 
+// This is where the number is stored initially
 const initialState = {
     value: 0
 }
